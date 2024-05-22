@@ -1,0 +1,17 @@
+# Ignore node_modules directory
+**/node_modules
+**/dist
+
+# Ignore any files or directories starting with . (e.g., .git, .env)
+.*
+
+# Ignore all files and directories specified in .gitignore
+!.gitignore
+
+.git
+.vscode
+.dockerignore
+.gitignore
+docker-compose.yaml
+Dockerfile
+README.md

@@ -1,0 +1,21 @@
+{
+  "name": "webapp-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "copy-shared": "cp -r shared $1/",
+    "build": "docker-compose -f docker-compose.yml -p webapp-boilerplate__dev--js up -d",
+    "build:prod": "docker-compose -f docker-compose.yml -p webapp-boilerplate__prod--js up -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuadolor/webapp-boilerplate.git"
+  },
+  "author": "joshua dolor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuadolor/webapp-boilerplate/issues"
+  },
+  "homepage": "https://github.com/joshuadolor/webapp-boilerplate#readme"
+}

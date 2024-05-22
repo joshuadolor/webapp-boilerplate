@@ -1,0 +1,10 @@
+**/.env/
+**/node_modules/
+**/dist/
+**/build/
+**/.pnp
+*/**/shared
+
+.git
+.env
+node_modules
