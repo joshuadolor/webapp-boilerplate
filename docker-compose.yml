@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    container_name: backend
+    container_name: ${PROJECT_NAME}__backend--dev
     build:
       context: ./backend
       dockerfile: Dockerfile
@@ -15,7 +15,7 @@ services:
     command: npm run dev
 
   frontend:
-    container_name: frontend
+    container_name: ${PROJECT_NAME}__frontend--dev
     build:
       context: ./frontend
       dockerfile: Dockerfile
