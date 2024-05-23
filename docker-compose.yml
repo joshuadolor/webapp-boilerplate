@@ -32,7 +32,7 @@ services:
   #other services
 
   nginx:
-    container_name: 'load-balancer'
+    container_name: ${PROJECT_NAME}__load-balancer--dev
     image: nginx:stable
     ports:
       - "${PROJECT_PORT}:80"
