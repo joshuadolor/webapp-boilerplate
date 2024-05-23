@@ -13,6 +13,8 @@ services:
       - ./.env:/app/.env
       - ./shared:/shared
     command: npm run dev
+    env_file:
+      - .env
 
   frontend:
     container_name: ${PROJECT_NAME}__frontend--dev
@@ -28,6 +30,8 @@ services:
     environment:
       - PORT=8010
     command: npm run dev
+    env_file:
+      - .env
     
   #other services
 
