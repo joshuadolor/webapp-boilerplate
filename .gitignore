@@ -8,3 +8,5 @@
 .git
 .env
 node_modules
+
+infra/nginx/logs
