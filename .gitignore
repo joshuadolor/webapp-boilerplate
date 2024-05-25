@@ -10,3 +10,4 @@
 node_modules
 
 infra/nginx/logs
+infra/rabbitmq
