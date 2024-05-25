@@ -1,6 +1,6 @@
 # no need to multistage
 FROM node:slim
-WORKDIR /app
+WORKDIR /project/_api
 
 #no need to copy files - handled by volumes:-on docker compose
 

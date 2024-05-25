@@ -1,0 +1,24 @@
+{
+    "extends": "../_common/tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "../",
+        "paths": {
+            "@common/*": [
+                "../_common/*"
+            ],
+            "@config/*": [
+                "../_api/config/*"
+            ],
+            "@controllers/*": [
+                "../_api/src/controllers/*"
+            ],
+            "@routes/*": [
+                "../_api/src/routes/*"
+            ]
+        },
+    },
+    "include": [
+        "src/**/*.ts",
+    ],
+}
